@@ -8,3 +8,4 @@ Files included in this repository:
 - Supplementary Table 4: Long-read derived isoforms in interferon-related genes
 - Supplementary Table 5: Survival and differential gene expression analysis from OAK, TCGA, and IMvigor210
 - Supplementary Table 6: Reagent information
+- Data S1: rulesFilter.stringent.json file used to retain high-quality full-length long-read-derived isoforms
