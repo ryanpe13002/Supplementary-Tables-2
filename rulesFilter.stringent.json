@@ -1,0 +1,137 @@
+{
+    "full-splice_match":[
+        {
+            "min_cov": 10,
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "min_cov": 10,
+            "diff_to_gene_TTS":[-25,25],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "subcategory":"mono-exon"
+        }
+    ],
+    "incomplete-splice_match":[
+    	{
+            "within_CAGE_peak":"TRUE",
+            "polyA_dist":[-25,0],
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE",
+            "min_cov": 10
+        },
+    	{
+            "diff_to_gene_TSS":[-25,25],
+            "diff_to_gene_TTS":[-25,25],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE",
+            "min_cov": 10
+        },
+        {
+            "diff_to_gene_TSS":[-25,25],
+            "polyA_dist":[-25,0],
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE",
+            "min_cov": 10
+        },
+        {
+            "within_CAGE_peak":"TRUE",
+            "diff_to_gene_TTS":[-25,25],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE",
+            "min_cov": 10
+        }
+    ],
+    "novel_in_catalog":[
+        {
+            "all_canonical": "canonical",
+            "min_cov": 10,
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "all_canonical": "canonical",
+            "min_cov": 10,
+            "diff_to_gene_TTS":[-25,25],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "all_canonical": "non_canonical",
+            "min_cov": 50,
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "all_canonical": "non_canonical",
+            "min_cov": 50,
+            "diff_to_gene_TTS":[-25,25],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "subcategory":"mono-exon_by_intron_retention"
+        },
+        {
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "subcategory":"mono-exon"
+        }
+    ],
+    "novel_not_in_catalog":[
+        {
+            "all_canonical": "canonical",
+            "min_cov": 10,
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "all_canonical": "canonical",
+            "min_cov": 10,
+            "diff_to_gene_TTS":[-25,25],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "all_canonical": "non_canonical",
+            "min_cov": 50,
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "all_canonical": "non_canonical",
+            "min_cov": 50,
+            "diff_to_gene_TTS":[-25,25],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        }
+    ],
+    "rest":[
+        {
+            "all_canonical": "canonical",
+            "min_cov": 10,
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "bite":"FALSE"
+        },
+        {
+            "perc_A_downstream_TTS":[0,60],
+            "RTS_stage":"FALSE",
+            "subcategory":"mono-exon"
+        }
+     ]
+}
